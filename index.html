@@ -1,0 +1,230 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Ivato</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <style type="text/css">
+      .bigheader {
+        /*margin-bottom: 40px;*/
+        padding-bottom: 30px;
+        padding-top: 50px;
+        width: 100%;
+        text-align: center;
+        /*background-image: url(img/paper_texture_350x350.jpg);
+        color: #FFF;*/
+      }
+
+      .bigheader h1 {
+        font-size: 90px;
+        font-weight: 400;
+        line-height: 1;
+      }
+
+      .bigheader p {
+        font-size: 38px;
+        font-weight: 100;
+        line-height: 1.25;
+        padding-top: 20px;
+        text-align: center;
+      }
+
+      .subheader {
+        text-align: center;
+      }
+
+      .subheader h2 {
+        font-size: 24px;
+        font-weight: 200;
+      }
+
+      div .section {
+        padding-top: 40px;
+      }
+
+      div .item {
+        padding-bottom: 20px;
+        padding-top: 40px;
+      }
+
+      hr .light {
+        border-color: #FFCC00;
+      }
+
+      img .visual {
+      }
+
+    </style>
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="assets/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Le fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
+                    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+                                   <link rel="shortcut icon" href="assets/ico/favicon.png">
+  </head>
+
+  <body data-spy="scroll" data-target=".navbar" >
+
+    <section id="home">
+      <!--div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="navbar-inner">
+          <div class="container">
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="brand" href="./index.html">Ivato</a>
+            <div class="nav-collapse collapse">
+              <ul id="navbar-items" class="nav">
+                <li class="active"><a href="#home">Home</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div-->
+
+      <div class="bigheader">
+        <h1>ivato</h1>
+        <p>iOS and javascript developer</p>
+      </div>
+
+      <div class="container subheader">
+        <div class="row-fluid">
+          <div class="span4">
+            <h2>iOS</h2>
+            <p>
+              Apple Core frameworks, QuartzCore, camera APIs; networking, multithreading, memory management, custom interface creation and animation; good understanding of third party frameworks usage and installation : Box2D, OpenCV.
+            </p>
+          </div>
+          <div class="span4">
+            <h2>Javascript</h2>
+            <p>
+              Vanilla, Backbone.js, jQuery, dynamic UI and UI assets.
+              Events, functional and async programming. Server side : very good knowledge of NodeJS.
+              Rest APIs consuming : Facebook, Twitter, ...
+            </p>
+          </div>
+          <div class="span4">
+            <h2>Misc</h2>
+            <p>
+              10 years of experience on Flash / Actionscript, including live streaming using Wowza Media Server : machine setup, installation, deployment, maintenance.
+              Basic knowledge of OpenGL.
+            </p>
+          </div>
+        </div>
+        <hr>
+      </div>
+
+    </section>
+
+    <section id="work">
+      <div class="container section">
+        <h1>Work</h1>
+        <div class="row fluid item">
+          <div class="span4">
+            <h3>OA Proto</h3>
+            <p>
+              OA Proto is an iPad application prototype asked by <a href="http://www.bnf.fr">BNF</a> at <a href="http://www.iseabloom.com">is&a bloom</a> for sharing annotations on medieval manuscripts.
+              Built to check usability and interest from researchers working in that field.
+              Exports Open Annotation format.
+              <li>Custom engine for zooming and panning big images</li>
+              <li>Implements OpenCV APIs for "magic wand" feature</li>
+              <li>Export format : Open Annotation / SVG</li>
+            </p>
+            <p>Work in progress. Source code available <a href="https://github.com/ivato/OAProto">here</a></p>
+          </div>
+          <div class="span8"><img src="img/oaproto.jpg"></div>
+        </div>
+        <hr>
+        <div class="row fluid item">
+          <div class="span4" >
+            <h3>Baby Painting Box</h3>
+            <p>
+              When drawing, babies use complex techniques that involves their 10 fingers simultaneously.
+              Hence this application that handles a 10 fingers multitouch.
+            </p>
+            <p>Painting cans can be moved around. 3 strokes, saves to the iphone gallery</p>
+            <p>Universal application, retina support.</p>
+            <p>Available soon.</p>
+          </div>
+          <div class="span8" ><img src="img/babydraw2.jpg" /></div>
+        </div>
+        <hr>
+        <div class="row fluid item">
+          <div class="span4">
+            <h3>Photo Trippr</h3>
+            <p>
+              This free app makes you travel inside Flickr, by browsing its content, by keywords or tags. 
+            </p>
+            <p>
+              It was made for <a href="http://www.iseabloom.com">is&a bloom</a> to test a few OpenGL features and perform tests on some 2D animations.
+            </p>
+            <a href="https://itunes.apple.com/app/id392930669?mt=8&affId=2226912&ign-mpt=uo%3D4">Download it on iTunes</a>
+          </div>
+          <div class="span8"><img src="img/phototrippr.jpg" /></div>
+        </div>
+        <hr>
+        <div class="row fluid item">
+          <div class="span4">
+            <h3>Look Hunter</h3>
+            <p>
+              This <a href="http://www.moodlook.com/application-iphone">app</a> was made for the fashion social network <a href="http://www.moodlook.com">moodlook</a>, to let users share their looks on the website.
+            </p>
+            <p>Uses REST APIs for authentication and data upload.</p>
+          </div>
+          <div class="span8"><img src="img/lookhunter.jpg" /></div>
+        </div>
+        <hr>
+        <div class="row fluid item">
+          <div class="span4">
+            <h3>Public Sénat</h3>
+            <p>
+              Application made for <a href="http://www.publicsenat.fr" >Public Sénat</a> website.
+            </p>
+            <p>
+              Browse most recent articles, most popular ones, search by keywords, social sharing.
+            </p>
+            <a href="https://itunes.apple.com/fr/app/public-senat/id384627263?mt=8">Download it on iTunes</a>
+          </div>
+          <div class="span8"><img src="img/publicsenat.jpg" /></div>
+        </div>
+      </div>
+    </section>
+
+    <hr>
+
+    <footer class="footer">
+      <div class="container">
+        <p>
+          <span> mail : ivan dot touzeau at gmail dot com</span>
+          <a class="pull-right" href="https://github.com/ivato">https://github.com/ivato</a>
+        </p>
+      </div>
+    </footer>
+
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(e){
+        // bleh.
+      });
+    </script>
+    
+  </body>
+</html>
